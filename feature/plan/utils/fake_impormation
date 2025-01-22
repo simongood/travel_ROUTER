@@ -1,0 +1,42 @@
+  user_input = [
+        {
+            "星期別": 1,
+            "時間": "10:00",
+            "類別": "餐廳",
+            "預算": 500,
+            "出發地": (25.0478, 121.5171),
+            "可接受距離門檻(KM)": 10,
+            "交通類別": "步行"
+        },
+        {
+            "星期別": 3,
+            "時間": "15:00",
+            "類別": "景點",
+            "預算": "none",
+            "出發地": (25.032969, 121.565418),
+            "可接受距離門檻(KM)": 5,
+            "交通類別": "大眾運輸"
+        },
+        {
+            "星期別": 5,
+            "時間": "none",
+            "類別": "咖啡廳",
+            "預算": 300,
+            "出發地": (25.0375, 121.5637),
+            "可接受距離門檻(KM)": "none",
+            "交通類別": "步行"
+        }
+    ]
+
+        extracted_data = [
+        {'place_id': 'ChIJ---TJYypQjQRNipOm6saF74', '評分': 7.5},
+        {'place_id': 'ChIJ--a3zLelQjQRVYdmUEq4SVM', '評分': 7.5},
+        {'place_id': 'ChIJ--BGGROqQjQRcOamjS8UMW4', '評分': 5.33},
+        {'place_id': 'ChIJ--FASY2sQjQR-zzjANSErLk', '評分': 4.5},
+        {'place_id': 'ChIJ--IAVHCpQjQREro-d5JTYxU', '評分': 5.0},
+        {'place_id': 'ChIJ--MkGuilQjQRDCEmUAncjwM', '評分': 7.5},
+        {'place_id': 'ChIJ--OtBC2qQjQRsSZzy2NIUbc', '評分': 7.5},
+        {'place_id': 'ChIJ--tcLdWvQjQR-nAfNjIShK0', '評分': 7.33},
+        {'place_id': 'ChIJ-0C6XhKpQjQRcNsw9_B7Zqw', '評分': 8.67},
+        {'place_id': 'ChIJ-0Ccg8oCaDQRNywXfRc11vc', '評分': 2.0}
+    ]

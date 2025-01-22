@@ -1,0 +1,39 @@
+# 公用
+1. merge 向量搜尋的 place ID → vector_search
+2. 特殊需求篩選 special → spec_damand
+3. 餐廳景點篩選 → place_type
+=> 輸出 place ID 
+
+db_filter
+def 篩選(load 一包 [placeID ...], special: bool, data_type: bool):
+    placeID = merge 向量搜尋的 place ID()
+    
+    if special == True:
+        placeID = 特殊需求篩選()
+    if data_type == True:
+        placeID = 餐廳景點篩選()
+    
+    return [placeID ...]
+
+# for 啓舜
+main():
+    condition_data = {}
+    for period in ['lunch', 'dinner', 'morning', 'afternoon', 'night']
+        condition_data[period] = 篩選([placeID ...],
+                                    special = True,
+                                    data_type = True)
+
+1. 合併 5 包 字典檔
+
+# for CBRA
+main():
+    [placeID ...] = 篩選([placeID ...],
+                        special = True,
+                        data_type = false)
+
+1. 最後輸出字點檔
+
+
+---
+加資料:
+function 
